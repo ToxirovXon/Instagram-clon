@@ -1,0 +1,13 @@
+.comment-input:focus {
+    outline: none !important;
+    border-color: none;
+}
+
+
+body{
+    background:url(/public/images/images.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
