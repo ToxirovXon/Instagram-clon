@@ -95,7 +95,7 @@ const ConfirmCreatePost = ({ image, back }) => {
             {emoji && (
               <div
                 className="absolute bg-white max-h-sm border rounded"
-                style={{ top: "180px" }}
+                style={{ top: "-100px", left: "-200px" }}
                 ref={emojiRef}
               >
                 <div className="grid max-h-40 overflow-auto grid-cols-6 p-3">

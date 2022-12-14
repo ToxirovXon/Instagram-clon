@@ -85,7 +85,7 @@ const NavBar = () => {
             {focused && (
               <div
                 className="absolute top-14 w-80 max-h-60 overflow-auto h-60 bg-white border rounded py-3 px-4"
-                ref={searchRef}
+                ref={searchRef} 
               >
                 <SearchBar searchInput={search} />
               </div>

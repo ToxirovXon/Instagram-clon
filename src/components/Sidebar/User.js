@@ -22,8 +22,8 @@ const User = ({ username, fullName, avatarSrc }) =>
       </div>
 
       <div className="p-8 col-span-3">
-        <p className="font-bold text-sm text-white">{username}</p>
-        <p className="text-sm text-white">{fullName}</p>
+        <p className="font-bold text-sm text-black">{username}</p>
+        <p className="text-sm text-black">{fullName}</p>
       </div>
     </Link>
   );

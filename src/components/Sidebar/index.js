@@ -8,7 +8,7 @@ const Sidebar = () => {
 
 
     return (
-        <div className="p-4">
+        <div className="p-4 bg-white my-16 border-4 rounded-3">
             <User username={username} fullName={fullName} avatarSrc={avatarSrc}/>
             <Suggestions userId={userId} following={following} loggedInUserDocId={docId}/>
         </div>

@@ -32,7 +32,7 @@ const SuggestedProfile = ({
           />
         </div>
         <Link className="ml-2" to={`/${username}`}>
-          <p className="font-bold text-sm text-white">{username}</p>
+          <p className="font-bold text-sm text-black">{username}</p>
         </Link>
       </div>
       <div>
