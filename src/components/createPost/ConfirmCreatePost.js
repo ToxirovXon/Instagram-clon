@@ -65,10 +65,10 @@ const ConfirmCreatePost = ({ image, back }) => {
     <div className="p-1 items">
       <div
         className="flex  justify-center items-center"
-        style={{ height: 400, width: 600 }}
+        style={{ height: 350, width: 600 }}
       >
         <div>
-          <div className="flex justify-center">
+          <div className="flex justify-center w-100 h-80">
             <img src={imageSrc} alt="" className="image" />
           </div>
         </div>
