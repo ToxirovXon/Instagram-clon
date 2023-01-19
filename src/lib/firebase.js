@@ -5,12 +5,13 @@ import "firebase/compat/auth"
 import "firebase/compat/storage";
 
 const config = {
-  apiKey: "AIzaSyCNEH-7r1F7GGODsivWs5q0LHVcdkyhHmw",
-  authDomain: "instagram-b4ef8.firebaseapp.com",
-  projectId: "instagram-b4ef8",
-  storageBucket: "instagram-b4ef8.appspot.com",
-  messagingSenderId: "17306731028",
-  appId: "1:17306731028:web:54d4cb54b170100b17dd01"
+  apiKey: "AIzaSyBdLaRQDqkWcBSMDvK91iRSxgHCNZycWu8",
+  authDomain: "instagram-b1207.firebaseapp.com",
+  projectId: "instagram-b1207",
+  storageBucket: "instagram-b1207.appspot.com",
+  messagingSenderId: "7194009068",
+  appId: "1:7194009068:web:e5e3bf595063d2f038b4c9",
+  measurementId: "G-WQGNBKG1VV"
 }
 
 const firebase = Firebase.initializeApp(config);

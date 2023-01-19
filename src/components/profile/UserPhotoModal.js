@@ -92,7 +92,7 @@ const UserPhotoModal = ({ showModal, setShowModal, photo }) => {
                     <div className="flex justify-center">
                       <div className="flex justify-center">
                         {photo.imageSrc ? (
-                          <img src={photo.imageSrc} alt={""} class="image" />
+                          <img src={photo.imageSrc} alt={""} className="image" />
                         ) : (
                           <Skeleton count={1} height={750} width={540} />
                         )}
